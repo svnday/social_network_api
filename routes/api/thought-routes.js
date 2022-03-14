@@ -26,6 +26,10 @@ router
     .put(updateThought);
 
 router
+    .route('/:userId/:thoughtId')
+    .delete(removeThought);
+
+router
     .route('/:thoughtId/reactions')
     .post(addReaction);
 
