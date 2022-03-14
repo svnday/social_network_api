@@ -50,4 +50,4 @@ ________________________________________________________________________________
 
 
 Link to repository: [https://github.com/svnday/social_network_api](https://github.com/svnday/social_network_api)  
-[Link to demo video](https://streamable.com/d2ur7h)
+Link to demo video: [https://streamable.com/d2ur7h](https://streamable.com/d2ur7h)
