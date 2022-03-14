@@ -76,7 +76,7 @@ const userController = {
     },
 
     removeFriend({ params }, res) {
-        User.findOneAndDelete({ _id: params.id }, { $pull: { friends: params.friendid } }, { runValidators: true })
+        User.findOneAndUpdate({ _id: params.id }, { $pull: { friends: params.friendid } }, { runValidators: true })
             .then(dbUserData => {
                 if (!dbUserData) {
                     res.status(404).json({ message: 'No user found with this id' });
